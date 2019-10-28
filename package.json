@@ -1,0 +1,41 @@
+{
+  "name": "contacts-meme",
+  "version": "1.0.0",
+  "description": "An app that makes good use of the Contact Picker API to generate random memes for your contacts",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "contacts",
+    "lit-html",
+    "memes"
+  ],
+  "author": "Peter Perlepes <igneel64>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-welcome": "^1.1.1",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.18.2",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "lit-html": "^1.1.2"
+  }
+}

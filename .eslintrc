@@ -1,0 +1,4 @@
+{
+  "extends": "eslint-config-welcome",
+  "parser": "babel-eslint"
+}
